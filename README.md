@@ -7,6 +7,7 @@
 HTML中的JavaScript
 
 ## chapter3
+语言基础
 
 ## chapter4
 ## chapter5

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  var函数作用域，变量会提升
+  let块级作用域
+
+  <script>
+  for (let index = 0; index < 5; index++) {
+    setTimeout(() => {
+      console.log(index)
+    }, 0);
+  }
+  var object1 = { a: 1, b: 2 };
+  for (const key in object1) { 
+    console.log(key); 
+  } 
+
+  var array1 = [1, 2, 4]
+  for (const iterator of array1) {
+    console.log(iterator)
+  }
+
+  // 最大值 1.797 693 134 862 315 7e+308
+  console.log(Number.MAX_VALUE)
+
+  const num = 123123;
+  const a = num.toString(2); // 转换为2进制
+  const b = parseInt(a, 2); // 转化为10进制
+  </script>
+</body>
+</html>
